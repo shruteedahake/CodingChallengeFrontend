@@ -1,0 +1,62 @@
+.book-management-container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .book-management-forms {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .book-form-section {
+    flex: 1;
+    padding: 20px;
+    border: none; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .book-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book-management-container input {
+    padding: 10px;
+    margin-bottom: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .book-management-container button {
+    padding: 10px 20px;
+    background-color: #bb4ee9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .book-management-container button:hover {
+    background-color: #8515b4;
+  }
+  
+  .book-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
